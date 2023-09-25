@@ -1,7 +1,7 @@
 # Three Houses
 > Here's a logic puzzle that seeks to determine who's in what house and what they like to drink.
 
-*This comes from an exercise contained with materials I have been given to teach a university-level course on Artificial Intelligence*.
+*This comes from an exercise contained within materials I have been given to teach a university-level course on Artificial Intelligence*.
 
 ## Background
 There are three houses.

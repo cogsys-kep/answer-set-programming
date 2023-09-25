@@ -20,3 +20,5 @@ day(4).
 :- pair(a,4). %hint #1
 :- pair(a,X), pair(b,Y), Y>X. %hint #2
 :- pair(d,X), pair(c,Y), not X = Y-1. %hint #3
+
+#show pair/2.

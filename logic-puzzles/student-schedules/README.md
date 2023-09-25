@@ -1,7 +1,7 @@
 # Student Schedules
 > Here's a logic puzzle that seeks to determine which students take classes on which days.
 
-*This comes from an exercise contained with materials I have been given to teach a university-level course on Artificial Intelligence*.
+*This comes from an exercise contained within materials I have been given to teach a university-level course on Artificial Intelligence*.
 
 ## Background
 There are four students—**Adam**, **Berta**, **Caesar**, and **Dora**

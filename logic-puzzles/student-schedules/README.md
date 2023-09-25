@@ -4,17 +4,9 @@
 *This comes from an exercise contained with materials I have been given to teach a university-level course on Artificial Intelligence*.
 
 ## Background
-There are four students
-1. Adam
-2. Berta
-3. Caesar
-4. Dora
+There are four students—**Adam**, **Berta**, **Caesar**, and **Dora**
 
-who take the same course but on different days.  One student takes it on each of the following days:
-* Monday
-* Tuesday
-* Wednesday
-* Thursday
+who take the same course but on different days—**Monday**, **Tuesday**, **Wednesday**, and **Thursday**.
 
 We want to figure out which student takes the class on which day.
 
@@ -26,7 +18,7 @@ We want to figure out which student takes the class on which day.
 ## Explanation
 
 ### Starting state
-There are 4! = 24 unique arrangements of the possible schedules.
+There are `4! = 24` unique arrangements of the possible schedules.
 
 The code below generates `4^4 = 256` instances, which includes pairings in which all students attend classes on the same day:
 
@@ -104,4 +96,4 @@ This gives us the correct solution:
 * Dora goes on Wednesday
 * Caesar goes on Thursday
 
-And we can see that in just a few lines of code, we can quickly determine the answer to this logic puzzle, and see the intermediate steps contained within.
+And we can see that in just a few lines of code, we can quickly determine the answer to this logic puzzle, as well as see the intermediate steps contained within.

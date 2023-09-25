@@ -14,7 +14,7 @@ day(4).
 1 { pair(S,D) : student(S), day(D) } 1 :- student(S).
 
 % only one student per day (24)
-:- not 1 {pair(S,D) : student(S)} 1, day(D).
+:- not 1 { pair(S,D) : student(S) } 1, day(D).
 
 % hints   
 :- pair(a,4). %hint #1

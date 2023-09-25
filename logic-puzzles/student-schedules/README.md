@@ -64,7 +64,7 @@ The first hint states that Adam doesn't attend class on Thursday, which eliminat
 #### Hint No. 2
 The second hint states that Adam learns of the week's topics from Berta, which implies that Berta must attend class earlier in the week than Adam.  The following code states that *it cannot be the case that the day Berta goes to class `Y` may be larger than (come after) the day that Adam goes to class `X`*.
 ```
-:- pair(a,X), pair(b,Y), Y>X.
+:- pair(a,X), pair(b,Y), Y > X.
 ```
 
 This hint eliminates 12 results and leaves us with six:
